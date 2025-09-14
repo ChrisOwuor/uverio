@@ -1,0 +1,69 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "slug": "building-scalable-react-applications",
+      "title": "Building Scalable React Applications with Microservices",
+      "excerpt": "Learn how to architect React applications that can scale with your business using microservices patterns and modern deployment strategies.",
+      "author": "Sarah Chen",
+      "date": "March 12, 2024",
+      "readTime": "6 min read",
+      "category": "Web Development",
+      "image": "/api/placeholder/400/250",
+      "tags": ["React", "Microservices", "Architecture"],
+      "content": "<p>Full HTML content for this blog post...</p>"
+    },
+    {
+      "id": 2,
+      "slug": "hardware-prototyping-concept-to-production",
+      "title": "Hardware Prototyping: From Concept to Production",
+      "excerpt": "A comprehensive guide to taking your hardware ideas from initial sketches to manufacturable products, including tips for PCB design and component selection.",
+      "author": "Marcus Johnson",
+      "date": "March 10, 2024",
+      "readTime": "10 min read",
+      "category": "Hardware",
+      "image": "/api/placeholder/400/250",
+      "tags": ["Hardware", "Prototyping", "PCB Design"],
+      "content": "<p>Full HTML content for this blog post...</p>"
+    },
+    {
+      "id": 3,
+      "slug": "securing-iot-networks-best-practices",
+      "title": "Securing IoT Networks: Best Practices for 2024",
+      "excerpt": "Essential security measures and protocols for protecting IoT networks from emerging threats and vulnerabilities in today's connected world.",
+      "author": "Alex Rodriguez",
+      "date": "March 8, 2024",
+      "readTime": "7 min read",
+      "category": "Security",
+      "image": "/api/placeholder/400/250",
+      "tags": ["Security", "IoT", "Networking"],
+      "content": "<p>Full HTML content for this blog post...</p>"
+    },
+    {
+      "id": 4,
+      "slug": "machine-learning-in-edge-devices",
+      "title": "Machine Learning in Edge Devices: Opportunities and Challenges",
+      "excerpt": "Discover how machine learning models are being optimized for edge computing environments and the challenges developers face.",
+      "author": "Sarah Chen",
+      "date": "March 5, 2024",
+      "readTime": "9 min read",
+      "category": "AI/ML",
+      "image": "/api/placeholder/400/250",
+      "tags": ["AI/ML", "Edge Computing", "Optimization"],
+      "content": "<p>Full HTML content for this blog post...</p>"
+    },
+    {
+      "id": 5,
+      "slug": "user-centered-design-for-iot-interfaces",
+      "title": "User-Centered Design for IoT Interfaces",
+      "excerpt": "Creating intuitive and accessible user interfaces for Internet of Things devices with a focus on user experience and usability.",
+      "author": "Marcus Johnson",
+      "date": "March 3, 2024",
+      "readTime": "5 min read",
+      "category": "Design",
+      "image": "/api/placeholder/400/250",
+      "tags": ["Design", "UX", "IoT"],
+      "content": "<p>Full HTML content for this blog post...</p>"
+    }
+  ]
+}
