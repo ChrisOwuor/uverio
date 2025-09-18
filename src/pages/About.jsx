@@ -1,4 +1,5 @@
 import { Users, Target, Award, Lightbulb } from "lucide-react";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   const values = [
@@ -48,6 +49,39 @@ const About = () => {
 
   return (
     <div className="bg-gray-50">
+      <Helmet>
+        <title>About | EBA Dynamics</title>
+        <meta
+          name="description"
+          content="Learn about EBA Dynamics, our mission, values, and the team behind innovative hardware and software solutions. Discover why companies trust us for IoT, embedded systems, and custom development."
+        />
+        <meta
+          name="keywords"
+          content="About EBA Dynamics, EBA Dynamics, team, mission, values, IoT, hardware, software, embedded systems, innovation"
+        />
+        <meta property="og:title" content="About | EBA Dynamics" />
+        <meta
+          property="og:description"
+          content="Meet the EBA Dynamics team and learn about our mission to bridge hardware and software for real-world solutions."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ebadynamics.co.ke/about" />
+        <meta
+          property="og:image"
+          content="https://ebadynamics.co.ke/og-image.jpg"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About | EBA Dynamics" />
+        <meta
+          name="twitter:description"
+          content="Learn about EBA Dynamics, our mission, values, and the team behind innovative hardware and software solutions."
+        />
+        <meta
+          name="twitter:image"
+          content="https://ebadynamics.co.ke/og-image.jpg"
+        />
+      </Helmet>
+
       {/* Hero Section */}
       <section className="pt-32 pb-20 relative overflow-hidden">
         {/* Grid Background */}

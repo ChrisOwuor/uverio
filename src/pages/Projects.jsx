@@ -1,5 +1,6 @@
 import { ExternalLink, Github, Calendar, Tag, ArrowRight } from "lucide-react";
 import { useState } from "react";
+import { Helmet } from "react-helmet";
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -148,6 +149,24 @@ const Projects = () => {
 
   return (
     <div className="bg-gray-50">
+      <Helmet>
+        <title>Projects | EBA Dynamics</title>
+        <meta
+          name="description"
+          content="Explore EBA Dynamics' portfolio of innovative solutions spanning web applications, IoT hardware, and enterprise software systems."
+        />
+        <meta property="og:title" content="Projects | EBA Dynamics" />
+        <meta
+          property="og:description"
+          content="Explore EBA Dynamics' portfolio of innovative solutions spanning web applications, IoT hardware, and enterprise software systems."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ebadynamics.com/projects" />
+        <meta
+          property="og:image"
+          content="https://images.pexels.com/photos/7414211/pexels-photo-7414211.jpeg"
+        />
+      </Helmet>
       {/* Hero Section */}
       <section className="pt-32 pb-20 relative overflow-hidden">
         {/* Grid Background */}

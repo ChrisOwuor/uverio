@@ -42,10 +42,15 @@ const Navigation = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg"></div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Uverio Studio
+          <div className="flex items-center space-x-3">
+            {/* Icon */}
+            <div className="w-10 h-10 bg-gradient-to-tr from-indigo-600 via-blue-500 to-teal-400 rounded-lg flex items-center justify-center text-white text-xl font-bold">
+              ED
+            </div>
+
+            {/* Text */}
+            <span className="text-2xl font-extrabold bg-gradient-to-r from-indigo-600 via-blue-500 to-teal-400 bg-clip-text text-transparent">
+              EBA Dynamics
             </span>
           </div>
 

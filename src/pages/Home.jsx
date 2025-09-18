@@ -1,5 +1,6 @@
 import { ArrowRight, CheckCircle, Users, Zap, Code, Cpu } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   const features = [
@@ -55,6 +56,38 @@ const Home = () => {
 
   return (
     <div className="pt">
+      <Helmet>
+        <title>EBA Dynamics </title>
+        <meta
+          name="description"
+          content="EBA Dynamics designs innovative solutions that bridge hardware and software to solve real-world problems with cutting-edge technology."
+        />
+        <meta
+          name="keywords"
+          content="hardware, software, IoT, web development, mobile apps, integration, performance, optimization, Uverio"
+        />
+        <meta
+          property="og:title"
+          content="EBA Dynamics "
+        />
+        <meta
+          property="og:description"
+          content="Innovative hardware and software solutions for real-world challenges. Trusted by industry leaders."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ebadynamics.co.ke/" />
+        <meta property="og:image" content="https://uverio.com/og-image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="EBA Dynamics "
+        />
+        <meta
+          name="twitter:description"
+          content="Innovative hardware and software solutions for real-world challenges. Trusted by industry leaders."
+        />
+        <meta name="twitter:image" content="https://uverio.com/og-image.jpg" />
+      </Helmet>
       {/* Hero Section */}
       <div className="min-h-screen bg-gray-50 ]">
         {/* Combined Hero Section */}
@@ -82,7 +115,7 @@ const Home = () => {
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-                At Uverio Studio, we design innovative solutions that bridge
+                At EBA Dynamics, we design innovative solutions that bridge
                 hardware and software to solve real-world problems with
                 cutting-edge technology.
               </p>

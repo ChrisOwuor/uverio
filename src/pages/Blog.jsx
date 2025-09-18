@@ -1,7 +1,7 @@
 import { Calendar, Clock, ArrowRight, Tag, User } from "lucide-react";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-
+import { Helmet } from "react-helmet";
 const Blog = () => {
   const [activeCategory, setActiveCategory] = useState("All");
 
@@ -32,6 +32,39 @@ const Blog = () => {
 
   return (
     <div className="bg-gray-50">
+      <Helmet>
+        <title>Blog | EBA Dynamics</title>
+        <meta
+          name="description"
+          content="Read the latest insights, trends, and best practices in hardware and software development from the EBA Dynamics team. Stay updated with our expert articles on IoT, web, AI, and more."
+        />
+        <meta
+          name="keywords"
+          content="EBA Dynamics blog, tech blog, IoT, web development, hardware, software, AI, ML, security, design, tutorials, insights"
+        />
+        <meta property="og:title" content="Blog | EBA Dynamics" />
+        <meta
+          property="og:description"
+          content="Explore expert articles and insights on hardware, software, IoT, AI, and more from EBA Dynamics."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ebadynamics.co.ke/blog" />
+        <meta
+          property="og:image"
+          content="https://ebadynamics.co.ke/og-image.jpg"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Blog | EBA Dynamics" />
+        <meta
+          name="twitter:description"
+          content="Read the latest insights, trends, and best practices in hardware and software development from the EBA Dynamics team."
+        />
+        <meta
+          name="twitter:image"
+          content="https://ebadynamics.co.ke/og-image.jpg"
+        />
+      </Helmet>
+
       {/* Hero Section */}
       <section className="pt-32 pb-20 relative overflow-hidden">
         {/* Grid Background */}
@@ -63,9 +96,7 @@ const Blog = () => {
         <div className="absolute top-20 left-10 w-20 h-20 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full opacity-20 animate-pulse"></div>
         <div className="absolute bottom-20 right-10 w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full opacity-20 animate-pulse delay-1000"></div>
       </section>
-
       {/* Featured Post */}
-
       {/* Categories Filter */}
       <section className="py-12 bg-gray-50 border-y border-gray-200">
         <div className="container mx-auto px-6">
@@ -87,7 +118,6 @@ const Blog = () => {
           </div>
         </div>
       </section>
-
       {/* Blog Posts Grid */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-6">
@@ -193,7 +223,6 @@ const Blog = () => {
           )}
         </div>
       </section>
-
       {/* Newsletter Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6 text-center">

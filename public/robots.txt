@@ -1,0 +1,9 @@
+# Allow all crawlers to access main content
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+Allow: /
+
+# Link to your sitemap for better crawling
+Sitemap: https://ebadynamics.co.ke/sitemap.xml
