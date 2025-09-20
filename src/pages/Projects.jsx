@@ -161,7 +161,7 @@ const Projects = () => {
           content="Explore EBA Dynamics' portfolio of innovative solutions spanning web applications, IoT hardware, and enterprise software systems."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://ebadynamics.com/projects" />
+        <meta property="og:url" content="https://ebadynamics.co.ke/projects" />
         <meta
           property="og:image"
           content="https://images.pexels.com/photos/7414211/pexels-photo-7414211.jpeg"

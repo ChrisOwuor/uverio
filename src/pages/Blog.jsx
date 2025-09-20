@@ -51,7 +51,7 @@ const Blog = () => {
         <meta property="og:url" content="https://ebadynamics.co.ke/blog" />
         <meta
           property="og:image"
-          content="https://ebadynamics.co.ke/og-image.jpg"
+          content="https://ebadynamics.co.ke/favicon-32x32.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Blog | EBA Dynamics" />
@@ -61,7 +61,7 @@ const Blog = () => {
         />
         <meta
           name="twitter:image"
-          content="https://ebadynamics.co.ke/og-image.jpg"
+          content="https://ebadynamics.co.ke/favicon-32x32.png"
         />
       </Helmet>
 

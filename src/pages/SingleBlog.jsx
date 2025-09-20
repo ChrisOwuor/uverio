@@ -22,8 +22,8 @@ const SingleBlog = () => {
     post.description ||
     post.excerpt ||
     "Read this article from EBA Dynamics' blog on hardware, software, IoT, and innovation.";
-  const metaImage = post.image || "https://ebadynamics.com/og-image.jpg";
-  const metaUrl = `https://ebadynamics.com/blog/${slug}`;
+  const metaImage = post.image || "https://ebadynamics.co.ke/favicon-32x32.png";
+  const metaUrl = `https://ebadynamics.co.ke/blog/${slug}`;
 
   return (
     <div className="px-6 py-20 max-w-4xl mx-auto">

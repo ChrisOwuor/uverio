@@ -66,27 +66,24 @@ const Home = () => {
           name="keywords"
           content="hardware, software, IoT, web development, mobile apps, integration, performance, optimization, Uverio"
         />
-        <meta
-          property="og:title"
-          content="EBA Dynamics "
-        />
+        <meta property="og:title" content="EBA Dynamics " />
         <meta
           property="og:description"
           content="Innovative hardware and software solutions for real-world challenges. Trusted by industry leaders."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://ebadynamics.co.ke/" />
-        <meta property="og:image" content="https://uverio.com/og-image.jpg" />
-        <meta name="twitter:card" content="summary_large_image" />
         <meta
-          name="twitter:title"
-          content="EBA Dynamics "
+          property="og:image"
+          content="https://ebadynamics.co.ke/favicon-32x32.png"
         />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="EBA Dynamics " />
         <meta
           name="twitter:description"
           content="Innovative hardware and software solutions for real-world challenges. Trusted by industry leaders."
         />
-        <meta name="twitter:image" content="https://uverio.com/og-image.jpg" />
+        <meta name="twitter:image" content="https://uverio.com/favicon-32x32.png" />
       </Helmet>
       {/* Hero Section */}
       <div className="min-h-screen bg-gray-50 ]">

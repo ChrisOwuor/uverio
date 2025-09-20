@@ -68,7 +68,7 @@ const About = () => {
         <meta property="og:url" content="https://ebadynamics.co.ke/about" />
         <meta
           property="og:image"
-          content="https://ebadynamics.co.ke/og-image.jpg"
+          content="https://ebadynamics.co.ke/favicon-32x32.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="About | EBA Dynamics" />
@@ -78,7 +78,7 @@ const About = () => {
         />
         <meta
           name="twitter:image"
-          content="https://ebadynamics.co.ke/og-image.jpg"
+          content="https://ebadynamics.co.ke/favicon-32x32.png"
         />
       </Helmet>
 
